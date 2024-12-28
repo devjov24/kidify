@@ -1,1 +1,1 @@
-This is a website to learn shopify.
+This is a website to learn shopify.  
