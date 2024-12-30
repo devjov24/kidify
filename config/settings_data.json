@@ -206,7 +206,7 @@
           "text": "#1c1d1d",
           "button": "{{ shop.brand.colors.primary[0].background }}",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#fff",
           "shadow": "#121212"
         }
       }
