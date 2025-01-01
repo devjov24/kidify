@@ -163,7 +163,8 @@
       ],
       "settings": {
         "title": "",
-        "useslider": true
+        "useslider": false,
+        "usesImageTabTitle": false
       }
     }
   },
