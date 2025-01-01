@@ -1,3 +1,6 @@
+/* *
+* Tab Section Start
+* */
 .tabs .slick-track .grid__item  {
     padding: 0 5px;
   }
@@ -82,3 +85,5 @@
         display: none;  /* Safari and Chrome */
     }
   }
+
+  /* Tab Section End */
