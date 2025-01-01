@@ -1,0 +1,13 @@
+Things to do look:
+- check if we can import product using .csv or .xls
+- check how we the process works of staging, devsite and livesite in shopify.
+    - ex: do we have a setup like this?
+        - live: kedify.com
+        - dev.kedify.com
+        - stg.kedify.com
+- can i add stripe test account?
+    + shopify use Bogus Gateway for this
+- where to add badges
+    - sale
+    - hot
+    - trending?
