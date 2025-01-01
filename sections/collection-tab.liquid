@@ -52,7 +52,7 @@
                </li>
               {%- endfor -%}
               </ul>
-             {%  if block.settings.viewall %}
+             {%  if section.settings.enViewAll == true %}
                <div class="center collection__view-all scroll-trigger animate--slide-in">
                  <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
                </div>
@@ -226,6 +226,12 @@
         "type": "checkbox",
         "id": "usesImageTabTitle",
         "label": "Uses Image Tab Title",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "enViewAll",
+        "label": "Enable View All",
         "default": true
       },
       {
