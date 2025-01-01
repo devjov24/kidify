@@ -37,7 +37,7 @@
         {%  capture content  %}
             <div id="tabs-{{ collection.id }}">
               <ul class="grid product-grid grid--2-col-tablet-down  grid--4-col-desktop">
-               {%- for product in block.settings.collection.products limit: 20 -%}
+               {%- for product in block.settings.collection.products limit: section.settings.numOfItems -%}
                <li class="grid__item scroll-trigger animate--slide-in">
                   {% render 'card-product',
                     card_product: product,
@@ -227,6 +227,12 @@
         "id": "usesImageTabTitle",
         "label": "Uses Image Tab Title",
         "default": true
+      },
+      {
+        "type": "number",
+        "id": "numOfItems",
+        "label": "Number Of Items",
+        "default": 20
       }
     ],
     "blocks": [
