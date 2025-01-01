@@ -164,7 +164,9 @@
       "settings": {
         "title": "",
         "useslider": false,
-        "usesImageTabTitle": false
+        "usesImageTabTitle": false,
+        "enViewAll": false,
+        "numOfItems": 8
       }
     }
   },
