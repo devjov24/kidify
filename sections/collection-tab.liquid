@@ -52,11 +52,11 @@
                </li>
               {%- endfor -%}
               </ul>
-             {%  if section.settings.enViewAll == true %}
+             {%  if section.settings.enViewAll %}
                <div class="center collection__view-all scroll-trigger animate--slide-in">
                  <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
                </div>
-               {%  endif  %}
+              {%  endif  %}
             </div>
         {%  endcapture %}
         {%  assign tabContent = tabContent | append: content %}
