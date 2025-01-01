@@ -51,12 +51,11 @@
     border-radius: 5px;
   }
   .tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active p {
-    background: grey;
     padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid;
-    color: white;
+    color: #9F86D9;
     font-family: "Lobster Two", serif;
+    font-weight: bold;
+    font-size: 22px;
   } 
   .tabs-img-block {
     width: 100px;
