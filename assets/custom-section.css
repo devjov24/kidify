@@ -83,4 +83,9 @@
     }
   }
 
+  .card__badge{
+    grid-row-start: unset;
+    align-self: auto;
+  }
+
   /* Tab Section End */
