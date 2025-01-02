@@ -102,4 +102,16 @@
     font-size: 20px;
   }
 
+  .cus-coll-tab .card__information{
+    padding-top: 16px;
+    padding-bottom: 15px;
+  }
+
+  .cus-coll-tab .grid--4-col-desktop .grid__item{
+    width: calc(25% - 30px * 3 / 4);
+  }
+
+  .cus-coll-tab .badge{
+    padding: 6px 16px;
+  }
   /* Tab Section End */
