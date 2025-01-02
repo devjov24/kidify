@@ -83,9 +83,23 @@
     }
   }
 
-  .card__badge{
+  .cus-coll-tab .card__badge{
     grid-row-start: unset;
     align-self: auto;
+  }
+  
+  .cus-coll-tab .grid{
+    gap: 30px;
+  }
+  
+  .cus-coll-tab .card__heading a{
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .cus-coll-tab .card-information .price{
+    color: #9F86D9;
+    font-size: 20px;
   }
 
   /* Tab Section End */
