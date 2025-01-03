@@ -52,6 +52,7 @@
   }
   .tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active p {
     border-bottom: 1px solid #9F86D9;
+    margin-bottom: 0;
   } 
 
   .tabs-img-block {
