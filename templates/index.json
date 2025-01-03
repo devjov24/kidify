@@ -99,7 +99,9 @@
         "useslider": false,
         "usesImageTabTitle": false,
         "enViewAll": false,
-        "numOfItems": 8
+        "numOfItems": 8,
+        "marginBottom": 92,
+        "marginTop": 92
       }
     }
   },
