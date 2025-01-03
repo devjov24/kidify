@@ -7,7 +7,7 @@
 {{ 'custom-section.css' | asset_url | stylesheet_tag }}  
 
 {%  if section.blocks.size > 0 %}
-  <div class="tabs-section page-width cus-coll-tab">
+  <div class="tabs-section page-width cus-coll-tab " style="margin-top: {{ section.settings.marginTop }}; margin-bottom: {{section.settings.marginBottom;}}">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <script src="//code.jquery.com/jquery-3.6.0.js"></script>
     <script src="//code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -157,6 +157,26 @@
         "id": "numOfItems",
         "label": "Number Of Items",
         "default": 20
+      },
+      {
+        "type": "range",
+        "id": "marginTop",
+        "label": "Margin Top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "marginTop",
+        "label": "Margin Top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "default": 0
       }
     ],
     "blocks": [
