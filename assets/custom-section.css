@@ -89,7 +89,8 @@
   }
   
   .cus-coll-tab .grid{
-    gap: 30px;
+    /* gap: 30px; */
+    margin-top: 38px;
   }
   
   .cus-coll-tab .card__heading a{
@@ -113,5 +114,9 @@
 
   .cus-coll-tab .badge{
     padding: 6px 16px;
+  }
+
+  .card--media .card__inner .card__content{
+    padding: 20px;
   }
   /* Tab Section End */
