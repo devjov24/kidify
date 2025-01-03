@@ -28,6 +28,11 @@
   }
   .tabs-section h2 {
     text-align: center;
+    color: #EDA62A;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+
   }
   .tabs.ui-tabs .ui-tabs-nav li {
     border: none;
@@ -50,6 +55,7 @@
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 0;
+    margin-top: 0;
   }
   .tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active p {
     border-bottom: 1px solid #9F86D9;
