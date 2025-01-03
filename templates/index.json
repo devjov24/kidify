@@ -103,10 +103,59 @@
         "marginBottom": 92,
         "marginTop": 92
       }
+    },
+    "image_banner_QFVknY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DiBBcJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Special sale",
+            "heading_size": "h1"
+          }
+        },
+        "text_4BnyHz": {
+          "type": "text",
+          "settings": {
+            "text": "Special promotions for our regular customers. Time is limited.",
+            "text_style": "body"
+          }
+        },
+        "buttons_nbCCCa": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DiBBcJ",
+        "text_4BnyHz",
+        "buttons_nbCCCa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Group_47_bcd60fe5-0d45-4ccb-a203-c0cac3a6c2e1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-e3684533-cd09-4123-a62c-ae40555805ca",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "slideshow_wWEk9G",
-    "collection_tab_9Wrabw"
+    "collection_tab_9Wrabw",
+    "image_banner_QFVknY"
   ]
 }
