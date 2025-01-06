@@ -142,6 +142,22 @@
     border: unset;
     box-shadow: unset;
   }
+
+  .tab-type-tabOnSide #tabs{
+    display: flex;
+    gap: 30px;
+  }
+
+  .tab-type-tabOnSide .tabs.ui-tabs .ui-tabs-nav{
+    flex-direction: column;
+    padding: 35px 39px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .tab-type-tabOnSide .tabs.ui-tabs .ui-tabs-nav li a{
+    font-family: "DM Sans", serif;
+  }
   /* Tab Side End */
 
 /* Tab Section End */
