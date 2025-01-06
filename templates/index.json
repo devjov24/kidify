@@ -226,7 +226,7 @@
       "settings": {
         "title": "Shop by Category",
         "useslider": false,
-        "tabType": "tabOnSide",
+        "tabType": "tabOnTop",
         "usesImageTabTitle": false,
         "enViewAll": true,
         "numOfItems": 3,
