@@ -125,4 +125,18 @@
   .card--media .card__inner .card__content{
     padding: 20px;
   }
-  /* Tab Section End */
+
+  /* Tab Side */
+  .tab-type-tabOnSide .title-and-links{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tab-type-tabOnSide .button{
+    color: rgba(var(--color-button),var(--alpha-button-background));
+    background-color: unset;
+    border: unset;
+  }
+  /* Tab Side End */
+
+/* Tab Section End */
