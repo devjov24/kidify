@@ -137,6 +137,11 @@
     background-color: unset;
     border: unset;
   }
+
+  .tab-type-tabOnSide .button::before, .tab-type-tabOnSide .button::after{
+    border: unset;
+    box-shadow: unset;
+  }
   /* Tab Side End */
 
 /* Tab Section End */
