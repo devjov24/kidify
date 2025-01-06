@@ -153,11 +153,22 @@
     padding: 35px 39px;
     justify-content: flex-start;
     align-items: flex-start;
+    background-color: #EFF3F3;
   }
 
-  .tab-type-tabOnSide .tabs.ui-tabs .ui-tabs-nav li a{
+  .tab-type-tabOnSide .tabs.ui-tabs .ui-tabs-nav li p{
     font-family: "DM Sans", serif;
+    font-size: 18px;
+    color: rgba(var(--color-button), var(--alpha-button-background));
+    font-weight: normal;
   }
+
+  .tab-type-tabOnSide .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{
+    background-color: #9F86D9;
+    border-radius: 46px;
+  }
+
+
   /* Tab Side End */
 
 /* Tab Section End */
