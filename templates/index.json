@@ -99,7 +99,7 @@
         "useslider": false,
         "tabType": "tabOnSide",
         "usesImageTabTitle": false,
-        "enViewAll": false,
+        "enViewAll": true,
         "numOfItems": 8,
         "marginBottom": 92,
         "marginTop": 92
