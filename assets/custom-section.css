@@ -161,11 +161,13 @@
     font-size: 18px;
     color: rgba(var(--color-button), var(--alpha-button-background));
     font-weight: normal;
+    padding: 7px 18px;
   }
 
   .tab-type-tabOnSide .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor p{
     background-color: #9F86D9;
     border-radius: 46px;
+    color: #fff;
   }
 
 
