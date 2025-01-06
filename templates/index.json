@@ -97,6 +97,7 @@
       "settings": {
         "title": "NEW IN STORE",
         "useslider": false,
+        "tabType": "tabOnSide",
         "usesImageTabTitle": false,
         "enViewAll": false,
         "numOfItems": 8,
