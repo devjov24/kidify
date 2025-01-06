@@ -20,7 +20,7 @@
     {%  if section.settings.title != blank %}
       <h2 class="h1">{{ section.settings.title }}</h2>
     {%  endif  %}
-    {%  if section.settings.enViewAll && section.settings.tabType == "tabOnSide"%}
+    {%  if section.settings.enViewAll and section.settings.tabType == "tabOnSide"%}
       <div class="center collection__view-all scroll-trigger animate--slide-in">
         <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
       </div>
@@ -60,7 +60,7 @@
                </li>
               {%- endfor -%}
               </ul>
-             {%  if section.settings.enViewAll && section.settings.tabType == "tabOnTop"%}
+             {%  if section.settings.enViewAll and section.settings.tabType == "tabOnTop"%}
                <div class="center collection__view-all scroll-trigger animate--slide-in">
                  <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
                </div>
