@@ -17,14 +17,16 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     {%  endif %}
-    {%  if section.settings.title != blank %}
-      <h2 class="h1">{{ section.settings.title }}</h2>
-    {%  endif  %}
-    {%  if section.settings.enViewAll and section.settings.tabType == "tabOnSide"%}
-      <div class="center collection__view-all scroll-trigger animate--slide-in">
-        <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
-      </div>
-    {%  endif  %}
+    <div class="title-and-links">
+      {%  if section.settings.title != blank %}
+        <h2 class="h1">{{ section.settings.title }}</h2>
+      {%  endif  %}
+      {%  if section.settings.enViewAll and section.settings.tabType == "tabOnSide"%}
+        <div class="center collection__view-all scroll-trigger animate--slide-in">
+          <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
+        </div>
+      {%  endif  %}
+    </div>
     <div id="tabs" class="tabs">
       {%  assign tabContent = '' %}
       <ul>
