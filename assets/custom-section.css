@@ -163,7 +163,7 @@
     font-weight: normal;
   }
 
-  .tab-type-tabOnSide .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{
+  .tab-type-tabOnSide .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor p{
     background-color: #9F86D9;
     border-radius: 46px;
   }
