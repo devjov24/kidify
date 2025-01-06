@@ -228,7 +228,7 @@
         "useslider": false,
         "tabType": "tabOnTop",
         "usesImageTabTitle": false,
-        "enViewAll": true,
+        "enViewAll": false,
         "numOfItems": 3,
         "marginBottom": 0,
         "marginTop": 0
