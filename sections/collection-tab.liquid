@@ -18,14 +18,14 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
     {%  endif %}
     <div class="title-and-links">
-      {%  if section.settings.title != blank %}
-        <h2 class="h1">{{ section.settings.title }}</h2>
-      {%  endif  %}
-      {%  if section.settings.enViewAll and section.settings.tabType == "tabOnSide"%}
-        <div class="center collection__view-all scroll-trigger animate--slide-in">
-          <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
-        </div>
-      {%  endif  %}
+    {%  if section.settings.title != blank %}
+      <h2 class="h1">{{ section.settings.title }}</h2>
+    {%  endif  %}
+    {%  if section.settings.enViewAll and section.settings.tabType == "tabOnSide"%}
+      <div class="center collection__view-all scroll-trigger animate--slide-in">
+        <a class="button" href="{{ block.settings.collection.url }}"> View all </a>
+      </div>
+    {%  endif  %}
     </div>
     <div id="tabs" class="tabs">
       {%  assign tabContent = '' %}
@@ -34,7 +34,7 @@
        {%  assign collection = collections[block.settings.collection] %}
         
         <li class="collection-switcher-img">
-          <a href="#tabs-{{ collection.id }}">
+          <a href="#tabs-{{ section.id }}-{{ collection.id }}">
           {% if section.settings.usesImageTabTitle == true %}
             <div class="tabs-img-block">
               <img src="{{ collection.featured_image | image_url}}" width="100">
@@ -45,7 +45,7 @@
         </li>
         
         {%  capture content  %}
-            <div id="tabs-{{ collection.id }}">
+            <div id="tabs-{{ section.id }}-{{ collection.id }}">
               <ul class="grid product-grid grid--2-col-tablet-down  grid--3-col-desktop">
                {%- for product in block.settings.collection.products limit: section.settings.numOfItems -%}
                <li class="grid__item scroll-trigger animate--slide-in">
