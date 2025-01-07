@@ -25,7 +25,7 @@
       </div>
     {%  endif  %}
     </div>
-    <div id="tabs-{{ forloop.index }}" class="tabs">
+    <div id="tabs-{{ section.id }}" class="tabs">
       {%  assign tabContent = '' %}
       <ul>
       {%  for block in section.blocks %} 
@@ -113,7 +113,7 @@
           });
     }
         {%  endif %}
-    $( "#tabs-{{ forloop.index }}" ).tabs({
+    $( "#tabs-{{ section.id }}" ).tabs({
       create: function( event, ui ) {
          {%  if section.settings.useslider %}
        tabSlider()
