@@ -64,6 +64,87 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "collection_tab_CLgHRt": {
+      "type": "collection-tab",
+      "blocks": {
+        "tab_i7F6yH": {
+          "type": "tab",
+          "settings": {
+            "collection": "baby-furniture",
+            "viewall": true
+          }
+        },
+        "tab_GFa9Qf": {
+          "type": "tab",
+          "settings": {
+            "collection": "feeding",
+            "viewall": true
+          }
+        },
+        "tab_DKqbUb": {
+          "type": "tab",
+          "settings": {
+            "collection": "activity-gear",
+            "viewall": true
+          }
+        },
+        "tab_bCUaRh": {
+          "type": "tab",
+          "settings": {
+            "collection": "baby-care",
+            "viewall": true
+          }
+        },
+        "tab_EwbYDF": {
+          "type": "tab",
+          "settings": {
+            "collection": "girls-clothing",
+            "viewall": true
+          }
+        },
+        "tab_TgKiJ9": {
+          "type": "tab",
+          "settings": {
+            "collection": "boys-clothing",
+            "viewall": true
+          }
+        },
+        "tab_Kywq7n": {
+          "type": "tab",
+          "settings": {
+            "collection": "baby-bedding",
+            "viewall": true
+          }
+        },
+        "tab_T7NB3h": {
+          "type": "tab",
+          "settings": {
+            "collection": "baby-toys",
+            "viewall": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_i7F6yH",
+        "tab_GFa9Qf",
+        "tab_DKqbUb",
+        "tab_bCUaRh",
+        "tab_EwbYDF",
+        "tab_TgKiJ9",
+        "tab_Kywq7n",
+        "tab_T7NB3h"
+      ],
+      "settings": {
+        "title": "Shop by Category",
+        "useslider": false,
+        "tabType": "tabOnTop",
+        "usesImageTabTitle": false,
+        "enViewAll": false,
+        "numOfItems": 3,
+        "marginBottom": 0,
+        "marginTop": 0
+      }
+    },
     "collection_tab_9Wrabw": {
       "type": "collection-tab",
       "blocks": {
@@ -156,6 +237,7 @@
   },
   "order": [
     "slideshow_wWEk9G",
+    "collection_tab_CLgHRt",
     "collection_tab_9Wrabw",
     "image_banner_QFVknY"
   ]
